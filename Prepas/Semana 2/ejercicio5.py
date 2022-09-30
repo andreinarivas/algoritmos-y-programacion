@@ -45,8 +45,9 @@ else:
 
 num_string=str(number)
 num_str_inv=(num_string[::-1])
-if num_str_inv==num_string:
-    conditions.append('Palindrome')
+if len(num_string)>1:
+    if num_str_inv==num_string:
+        conditions.append('Palindrome')
 print('The number is: ')
 for x in range(len(conditions)):
     if x >=len(conditions)-1:
