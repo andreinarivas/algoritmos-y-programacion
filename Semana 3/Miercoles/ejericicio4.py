@@ -8,4 +8,10 @@ for x in pares_de_palabras:
     palabra_espanol=palabras[0]
     palabra_ingles=palabras[1]
     traduccion[palabra_espanol]=palabra_ingles
-print(traduccion)
+text=input('Por favor introduzca la frase a traducir: \n>>> ')
+pablabras_a_traducir=text.split()
+traducido=''
+for x in pablabras_a_traducir:
+    traducido+=traduccion.get(x,x)
+    traducido+=' '
+print(traducido)
