@@ -76,18 +76,3 @@ while run=='yes':
   if option==4:
     print('Thank you for using this service. \nHave a nice day!')
     run='no'
-
-      
-
-      
-      
-
-
-
-
-
-
-
-
-
-
