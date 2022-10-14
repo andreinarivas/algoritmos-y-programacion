@@ -16,7 +16,6 @@ def generate_tickets(number_of_tickets):
 
 def main():
   tickets_available=generate_tickets(int(input('Please enter how many tickets you want: ')))
-  print(tickets_available)
   print('The winning ticket is {}'.format(random.choice(tickets_available)))
 
 
